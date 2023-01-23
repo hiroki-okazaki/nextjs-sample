@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3100",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -11,6 +11,8 @@
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
+    "@hookform/resolvers": "^2.9.10",
+    "@mui/icons-material": "^5.11.0",
     "@mui/material": "^5.11.5",
     "@next/font": "13.1.2",
     "@types/node": "18.11.18",
@@ -22,6 +24,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-hook-form": "^7.42.1",
-    "typescript": "4.9.4"
+    "typescript": "4.9.4",
+    "yup": "^0.32.11"
   }
 }
