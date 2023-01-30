@@ -8,12 +8,6 @@ export default function Home() {
   return (
     <main>
       <div style={{ position: 'relative', height: '100vh' }}>
-        <button
-          style={{
-            display: 'flex',
-            justifyContent: 'center'
-          }}
-        ></button>
         <Image
           src="/top.jpeg"
           alt="トップページ"
